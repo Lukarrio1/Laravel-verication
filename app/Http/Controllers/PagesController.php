@@ -11,4 +11,7 @@ class PagesController extends Controller
         $this->middleware('auth',['except'=>[]]);
     }
    
+    public function index(){
+        return view('/home');
+    }
 }
