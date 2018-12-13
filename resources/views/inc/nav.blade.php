@@ -27,7 +27,7 @@
                     @endif
                 @else
                 <li>
-                    <a href="/home" class="nav-link">Dashboard</a>
+                    <a href="{{url('home')}}" class="nav-link">Dashboard</a>
                 </li>
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
