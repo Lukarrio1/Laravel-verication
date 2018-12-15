@@ -1,4 +1,4 @@
 1: user auth
 2: admin auth
-3: password verification
-4:
+3: password verification :
+4:password reset :complete...
