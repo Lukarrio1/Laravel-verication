@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\User;
+
 class VerifyController extends Controller
 {
     // verify the user 

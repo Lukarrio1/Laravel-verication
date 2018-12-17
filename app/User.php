@@ -27,6 +27,7 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+    // this function checks if the user is verified or not ..
     public function Verified(){
         return $this->token === null;
     }

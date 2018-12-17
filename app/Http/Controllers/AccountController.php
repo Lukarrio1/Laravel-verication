@@ -11,14 +11,15 @@ class AccountController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function __construct()
-    {
+   
+    public function __construct(User $user)
+    {   
         $this->middleware('auth',['except'=>[]]);
     }
     
     public function index()
-    {
-     return view('Account.index');
+    { 
+        return view('Account.index');
     }
 
     /**
