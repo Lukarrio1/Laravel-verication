@@ -3,13 +3,13 @@
 <div class="col-12 pl-3 pr-3 ">
     <div class="card">
        <div class="card-header bg-white">
-         this is the card header..
+         Email : {{$user->email}}
        </div>
       <div class="card-body">
-        this is the card body.
+        Username : {{$user->name}}
       </div> 
       <div class="card-footer bg-white">
-        this is the card footer
+       Jointed at {{date('M j, Y h:ia', strtotime($user->created_at ))}}
       </div>
     </div>
   </div>
