@@ -1,0 +1,190 @@
+<!-- <form method="POST" action="{{route('register')}}" accept-charset="UTF-8" class="form-horizontal">
+    <input name="_token" type="hidden" value="dol9CuewG8HGM5lZngd4sQtsLRWjqqoreSWEzMy5">
+    <div class="form-group"><label for="email" class="col-md-4 control-label">E-mail Address</label>
+        <div class="col-md-6"><input placeholder="E-mail Address" name="email" type="email" id="email" class="form-control">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="Fullname" class="col-md-4 control-label">Full name</label>
+        <div class="col-md-6">
+            <input placeholder="Full name" name="name" type="name" class="form-control">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="trn" class="col-md-4 control-label">Trn</label> (optional)
+        <div class="col-md-6">
+            <input placeholder="Trn" name="trn" type="trn" id="trn" class="form-control">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="address (street 1)" class="col-md-4 control-label">Address 1</label>
+        <div class="col-md-6">
+            <input placeholder="Address 1" name="address1" type="addres1" class="form-control">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="address (street 2)" class="col-md-4 control-label">Address 2</label>
+        <div class="col-md-6"><input placeholder="Address 2" name="address2" type="address2" class="form-control">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="city" class="col-md-4 control-label">City</label>
+        <div class="col-md-6">
+            <input placeholder="City" name="city" type="city" id="city" class="form-control">
+        </div>
+    </div>
+    <div class="form-group"><label for="state" class="col-md-4 control-label">State</label>
+        <div class="col-md-6">
+            <input placeholder="State" name="state" type="state" id="state" class="form-control">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="country" class="col-md-4 control-label">Country</label>
+        <div class="col-md-6">
+            <input placeholder="Country" name="country" type="country" id="country" class="form-control">
+        </div>
+    </div>
+    <div class="form-group"><label for="phone" class="col-md-4 control-label">Phone</label>
+        <div class="col-md-6">
+            <input placeholder="Phone" name="phone" type="phone" id="phone" class="form-control">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="password" class="col-md-4 control-label">Password</label>
+        <div class="col-md-6">
+            <input placeholder="Password" name="password" type="password" id="password" class="form-control">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="password_confirmation" class="col-md-4 control-label">Password Confirmation</label>
+        <div class="col-md-6">
+            <input placeholder="Password Confirmation" name="password_confirmation" type="password" id="password_confirmation" class="form-control">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="pickup_location" class="col-md-4 control-label">Package Pickup location</label>
+        <div class="col-md-6">
+            <select name="location_id" class="form-control">
+            <option value="0">--select pickup location--</option>
+            <option value="1">Mandeville Depot</option>
+            <option value="2">Deliver to My Home Address</option>
+            <option value="3">Kingston Depot</option> 
+            <option value="4">Montego Bay Depot</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-6 col-md-offset-4">
+            <input type="submit" value="Register" class="btn btn-primary">
+        </div>
+    </div>
+</form> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div role="tabpanel">
+        <ul role="tablist" class="nav nav-tabs">
+            <li role="presentation" class=""><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">Profile</a></li>
+            <li role="presentation" class="active"><a href="#edit" aria-controls="edit" role="tab" data-toggle="tab" aria-expanded="true">Update Information</a></li>
+            <li role="presentation"><a href="#password" aria-controls="password" role="tab" data-toggle="tab">Change Password</a></li>
+        </ul>
+        <div class="tab-content">
+            <div role="tabpanel" id="profile" class="tab-pane mt-30">
+                <table class="table table-striped table-hover">
+                    <tbody>
+                        <tr>
+                            <th>Avatar</th>
+                            <td><img src="https://www.gravatar.com/avatar/8fea12b08cc11dbf515e8c9e2f38f26b.jpg?s=80&amp;d=mm&amp;r=g" class="user-profile-image"></td>
+                        </tr>
+                        <tr>
+                            <th>Name</th>
+                            <td>Lukarrio WIlliams</td>
+                        </tr>
+                        <tr>
+                            <th>E-mail</th>
+                            <td>ennis4427@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th>Created At</th>
+                            <td>2018-12-12 20:20:19 (6 days ago)</td>
+                        </tr>
+                        <tr>
+                            <th>Last Updated</th>
+                            <td>2018-12-14 17:59:51 (4 days ago)</td>
+                        </tr>
+                        <tr>
+                            <th>TRN</th>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Address</th>
+                            <td>Albion dist Horizon Close 1 Waltham, Kingston, KIngston, Jamaica</td>
+                        </tr>
+                        <tr>
+                            <th>Phone</th>
+                            <td>18768831036</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div role="tabpanel" id="edit" class="tab-pane mt-30 active">
+                <form method="POST" action="http://portal.exshippingplus.com/profile/update" accept-charset="UTF-8" class="form-horizontal"><input name="_method" type="hidden" value="PATCH"><input name="_token" type="hidden" value="2Tff3kkMoOLlhoaw9AVwHzqznHRhViojZAj2400R">
+                    <div class="form-group"><label for="name" class="col-md-4 control-label">Full name</label>
+                        <div class="col-md-6"><input placeholder="Full name" name="name" type="text" value="Lukarrio WIlliams" id="name" class="form-control"></div>
+                    </div>
+                    <div class="form-group"><label for="trn" class="col-md-4 control-label">Trn</label>
+                        <div class="col-md-6"><input placeholder="Trn" name="trn" type="text" value="" id="trn" class="form-control"></div>
+                    </div>
+                    <div class="form-group"><label for="phone" class="col-md-4 control-label">Phone</label>
+                        <div class="col-md-6"><input placeholder="Phone" name="phone" type="text" value="18768831036" id="phone" class="form-control"></div>
+                    </div>
+                    <div class="form-group"><label for="address1" class="col-md-4 control-label">Address 1</label>
+                        <div class="col-md-6"><input placeholder="Address 1" name="address1" type="text" value="Albion dist" id="address1" class="form-control"></div>
+                    </div>
+                    <div class="form-group"><label for="address2" class="col-md-4 control-label">Address 2</label>
+                        <div class="col-md-6"><input placeholder="Address 2" name="address2" type="text" value="Horizon Close 1 Waltham" id="address2" class="form-control"></div>
+                    </div>
+                    <div class="form-group"><label for="city" class="col-md-4 control-label">City</label>
+                        <div class="col-md-6"><input placeholder="City" name="city" type="text" value="Kingston" id="city" class="form-control"></div>
+                    </div>
+                    <div class="form-group"><label for="state" class="col-md-4 control-label">State</label>
+                        <div class="col-md-6"><input placeholder="State" name="state" type="text" value="KIngston" id="state" class="form-control"></div>
+                    </div>
+                    <div class="form-group"><label for="country" class="col-md-4 control-label">Country</label>
+                        <div class="col-md-6"><input placeholder="Country" name="country" type="text" value="Jamaica" id="country" class="form-control"></div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-6 col-md-offset-4"><input id="update-profile" type="submit" value="Update" class="btn btn-primary"></div>
+                    </div>
+                </form>
+            </div>
+            <div role="tabpanel" id="password" class="tab-pane mt-30">
+                <form method="POST" action="http://portal.exshippingplus.com/password/change" accept-charset="UTF-8" class="form-horizontal"><input name="_method" type="hidden" value="PATCH"><input name="_token" type="hidden" value="2Tff3kkMoOLlhoaw9AVwHzqznHRhViojZAj2400R">
+                    <div class="form-group"><label for="old_password" class="col-md-4 control-label">Old Password</label>
+                        <div class="col-md-6"><input placeholder="Old Password" name="old_password" type="password" id="old_password" class="form-control"></div>
+                    </div>
+                    <div class="form-group"><label for="password" class="col-md-4 control-label">New Password</label>
+                        <div class="col-md-6"><input placeholder="New Password" name="password" type="password" id="password" class="form-control"></div>
+                    </div>
+                    <div class="form-group"><label for="password_confirmation" class="col-md-4 control-label">New Password Confirmation</label>
+                        <div class="col-md-6"><input placeholder="New Password Confirmation" name="password_confirmation" type="password" id="password_confirmation" class="form-control"></div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-6 col-md-offset-4"><input id="change-password" type="submit" value="Update" class="btn btn-primary"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
