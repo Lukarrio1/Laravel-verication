@@ -15,6 +15,12 @@ class CreateUserdatasTable extends Migration
     {
         Schema::create('userdatas', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('userid');
+            $table->string('trn')->nullable();
+            $table->string('phonenumber');
+            $table->string('address1');
+            $table->string('address2')->nullable();
+            $table->string('parish');
             $table->timestamps();
         });
     }

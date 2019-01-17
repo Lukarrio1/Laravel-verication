@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\User;
+use  App\userdata;
 
 class AccountController extends Controller
 {
@@ -21,8 +22,9 @@ class AccountController extends Controller
     public function index()
     { 
         $id = Auth::user()->id;
+        $userdata = userdata::find($id);
         $user = User::find($id);
-        return view('Account.index')->with('user',$user);
+        return view('Account.index')->with('user',$user)->with('userdata',$userdata);
     }
 
     /**
