@@ -1,4 +1,4 @@
-@extends('layouts.account')
+@extends('layouts.app')
 @section('content')
 <div class="col-12 pl-3 pr-3 ">
     <div class="card">
@@ -8,7 +8,7 @@
       <div class="card-body">
        Username : {{$user->name}}
       <div>
-       Jointed at {{date('M j, Y h:ia', strtotime($user->created_at ))}}
+       Joined at {{date('M j, Y h:ia', strtotime($user->created_at ))}}
       </div>
       </div>
       <div class="card-footer bg-white">
